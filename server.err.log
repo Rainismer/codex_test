@@ -1,0 +1,14 @@
+::ffff:127.0.0.1 - - [05/Mar/2026 18:05:01] "GET / HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Mar/2026 18:05:38] "GET / HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Mar/2026 18:06:25] "GET / HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Mar/2026 18:06:26] "GET /styles.css HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Mar/2026 18:06:26] "GET /snake-logic.js HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Mar/2026 18:06:26] "GET /app.js HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Mar/2026 18:06:26] code 404, message File not found
+::ffff:127.0.0.1 - - [05/Mar/2026 18:06:26] "GET /favicon.ico HTTP/1.1" 404 -
+::ffff:127.0.0.1 - - [05/Mar/2026 18:08:21] "GET / HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Mar/2026 18:08:22] "GET /styles.css HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Mar/2026 18:08:22] "GET /app.js HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Mar/2026 18:08:22] "GET /snake-logic.js HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [05/Mar/2026 18:08:22] code 404, message File not found
+::ffff:127.0.0.1 - - [05/Mar/2026 18:08:22] "GET /favicon.ico HTTP/1.1" 404 -
