@@ -60,19 +60,19 @@
     scoreEl.textContent = String(state.score);
 
     if (state.gameOver) {
-      statusEl.textContent = "Game Over";
+      statusEl.textContent = "游戏结束";
       pauseBtn.disabled = true;
-      pauseBtn.textContent = "Pause";
+      pauseBtn.textContent = "暂停";
       return;
     }
 
     pauseBtn.disabled = false;
     if (state.paused) {
-      statusEl.textContent = "Paused";
-      pauseBtn.textContent = "Resume";
+      statusEl.textContent = "已暂停";
+      pauseBtn.textContent = "继续";
     } else {
-      statusEl.textContent = "Running";
-      pauseBtn.textContent = "Pause";
+      statusEl.textContent = "进行中";
+      pauseBtn.textContent = "暂停";
     }
   }
 

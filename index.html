@@ -1,35 +1,35 @@
 ﻿<!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Snake</title>
+    <title>贪吃蛇</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <main class="app">
-      <h1>Snake</h1>
+      <h1>贪吃蛇</h1>
 
       <section class="hud" aria-live="polite">
-        <p>Score: <strong id="score">0</strong></p>
-        <p id="status">Running</p>
+        <p>分数：<strong id="score">0</strong></p>
+        <p id="status">进行中</p>
       </section>
 
-      <div id="board" class="board" role="grid" aria-label="Snake board"></div>
+      <div id="board" class="board" role="grid" aria-label="贪吃蛇棋盘"></div>
 
       <section class="actions">
-        <button id="pauseBtn" type="button">Pause</button>
-        <button id="restartBtn" type="button">Restart</button>
+        <button id="pauseBtn" type="button">暂停</button>
+        <button id="restartBtn" type="button">重新开始</button>
       </section>
 
-      <section class="controls" aria-label="Direction controls">
-        <button class="control up" data-direction="up" type="button">Up</button>
-        <button class="control left" data-direction="left" type="button">Left</button>
-        <button class="control right" data-direction="right" type="button">Right</button>
-        <button class="control down" data-direction="down" type="button">Down</button>
+      <section class="controls" aria-label="方向控制">
+        <button class="control up" data-direction="up" type="button">上</button>
+        <button class="control left" data-direction="left" type="button">左</button>
+        <button class="control right" data-direction="right" type="button">右</button>
+        <button class="control down" data-direction="down" type="button">下</button>
       </section>
 
-      <p class="hint">Keyboard: Arrow keys or WASD. Space to pause. R to restart.</p>
+      <p class="hint">键盘操作：方向键或 WASD 移动，空格暂停，R 重新开始。</p>
     </main>
 
     <script src="./snake-logic.js"></script>
